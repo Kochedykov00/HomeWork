@@ -16,7 +16,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        Button button1 = (Button) findViewById(R.id.button1);
+        Button button1= (Button) findViewById(R.id.button1);
         button1.setOnClickListener(this);
     }
 
