@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class FirstActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button button1;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-        Button button1= (Button) findViewById(R.id.button1);
-        button1.setOnClickListener(this);
+        Button button= (Button) findViewById(R.id.button1);
+        button.setOnClickListener(this);
     }
 
     @Override
